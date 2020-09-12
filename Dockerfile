@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 #RUN useradd asus-merlin sudo
 RUN adduser --disabled-password --gecos '' asus-merlin
-RUN adduser asus-merlin sudo
+RUN useradd asus-merlin sudo
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 USER asus-merlin
