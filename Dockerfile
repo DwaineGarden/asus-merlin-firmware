@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 RUN apt-get update; apt-get -y upgrade
-RUN apt-get -y install sudo apt-utils curl xxd rsync
+RUN apt-get -y install sudo apt-utils curl xxd rsync bc
 #RUN useradd asus-merlin sudo
 RUN adduser --disabled-password --gecos '' asus-merlin
 RUN adduser asus-merlin sudo
