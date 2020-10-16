@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt-get -y install sudo apt-utils curl xxd rsync bc automake.1.15
+RUN apt-get -y install sudo apt curl xxd rsync bc automake.1.15
 RUN apt-get update; apt-get -y upgrade
 
 #RUN useradd asus-merlin sudo
