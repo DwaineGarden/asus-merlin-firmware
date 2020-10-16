@@ -11,3 +11,4 @@ WORKDIR /home/admin/
 SHELL ["/bin/bash", "-c"]
 RUN mkdir -p "$HOME/amcfwm" && curl -s "https://raw.githubusercontent.com/Adamm00/am_cfwm/master/amcfwm.sh" -o "$HOME/amcfwm/amcfwm.sh" && chmod 755 "$HOME/amcfwm/amcfwm.sh"
 RUN sh $HOME/amcfwm/amcfwm.sh settings bac86 enable
+RUN sh $HOME/amcfwm/amcfwm.sh settings bax88 enable
