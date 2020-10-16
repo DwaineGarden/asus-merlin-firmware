@@ -1,6 +1,6 @@
 FROM ubuntu:latest
-RUN apt-get -y install sudo apt curl xxd rsync bc automake.1.15
 RUN apt-get update; apt-get -y upgrade
+RUN apt-get -y install sudo apt curl xxd rsync bc automake.1.15
 
 #RUN useradd asus-merlin sudo
 RUN adduser --disabled-password --gecos '' admin
