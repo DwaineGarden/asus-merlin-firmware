@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:latest
 RUN apt-get update; apt-get -y upgrade
 RUN apt-get -y install sudo apt-utils curl xxd rsync bc
 #RUN useradd asus-merlin sudo
